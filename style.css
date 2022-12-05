@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(pg.jpg) no-repeat center center fixed;
+    background-size: cover;
+
+}
+
+.container {
+    /*    border: 12px solid black;*/
+    color: white;
+    position: absolute;
+    top: 22%;
+    left: 35%;
+}
+
+.container h1 {
+
+    /*display: inline-block;*/
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 5px solid blueviolet;
+    margin-bottom: 23px;
+    padding: 13px 0;
+}
+
+.box {
+    width: 100%;
+    /*   border: 2px solid violet;*/
+    border-bottom: 2px solid purple;
+    margin: 22px 0px;
+}
+
+.box i {
+    width: 40px;
+    text-align: center;
+    /*padding: 0 2px;*/
+
+}
+
+.box input {
+    background: none;
+    width: 75%;
+
+    padding: 0 5px;
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: white
+}
+
+.btn {
+    color: rgb(99, 27, 119);
+    cursor: pointer;
+    outline: none;
+    width: 25%;
+    margin: 12px 0 0;
+    padding: 6px;
+    border-radius: 10px;
+    border: 2px solid purple;
+    background: none;
+    font-weight: bolder;
+}
+
+.btn:hover {
+    color: purple;
+    background-color: white;
+    opacity: 0.5;
+}
